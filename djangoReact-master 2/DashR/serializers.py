@@ -12,7 +12,7 @@ class dev_serializer(serializers.HyperlinkedModelSerializer):
 
     class Meta:
         model = Dev
-        fields = ["id", "firstname", "lastname", "username", "password", "price"]
+        fields = ["id", "firstname", "lastname", "username", "password", "price","gloablEarnings"]
 
 
 class client_serializer(serializers.HyperlinkedModelSerializer):
